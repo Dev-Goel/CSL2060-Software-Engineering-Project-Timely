@@ -1,5 +1,15 @@
 {
     "name": "Timely",
     "version": "0.0.1",
-    "manifest_version": 2
+    "manifest_version": 2,
+    "browser_action": 
+    {
+        "default_popup": "index.html",
+        "default_title": "Timely"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "storage"
+    ]
 }
