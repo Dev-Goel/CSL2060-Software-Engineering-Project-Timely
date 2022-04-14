@@ -1,2 +1,2 @@
-# CSL2050-Software-Engineering-Project-Timely
+# CSL2060-Software-Engineering-Project-Timely
 Time Tracker Extension
