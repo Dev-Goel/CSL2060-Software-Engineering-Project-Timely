@@ -1,13 +1,15 @@
 # CSL2060-Software-Engineering-Project-Timely
 Time Tracker Extension
 ----
+This software project is under the Course CSL2060 Software Engineering mentored by Dr. Sumit Kalra
+--
 
 Team Members:
 -
 1.) Dev Goel (B20CS090)
--
+<br />
 2.) Ravi Ramavat (B20CS053)
-----
+
 
 Problem Statement:
 ----
@@ -21,63 +23,72 @@ and tabular data to the user.
 
 Project Scenarios:
 ----
-● Web analytics: This is the main use case/user scenario of our project, the
+- Web analytics: This is the main use case/user scenario of our project, the
 user will be provided with his web analytics of ‘all days’ activity, ‘last week’
 activity and ‘today’ activity. The user will also be able to see a pie chart of
 his activities, it will also be shown in the tabular form if he wants to see the
 number of visits, time spent per website etc.<br />
-● Settings and customization: This scenario includes set theme, set
+- Settings and customization: This scenario includes set theme, set
 notifications, set restriction limits, set ignore list etc. options.
 
 
-Software Documents
+Software Documents:
 ----
-**2. Project Planning** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/2.%20Project%20Planning.pdf)
+**1.) SRS Document** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/1.%20SRS%20document.pdf)
 ----
-**4. Data Flow Diagrams** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/4.%20Data%20Flow%20Diagrams.pdf)
+**2.) Project Planning** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/2.%20Project%20Planning.pdf)
 ----
-**5. UML Structural Diagrams** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/5.%20UML%20Structural%20Diagrams.pdf)
+**3.) 4+1 Views** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/3.%204%2B1%20Views.pdf)
 ----
-**6. UML Behavioural Diagrams** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/6.%20UML%20Behavioural%20Diagrams.pdf)
+**4.) Data Flow Diagrams** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/4.%20Data%20Flow%20Diagrams.pdf)
 ----
-**7. Software Test Case Design Document** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/7.%20Software%20Test%20Case%20Design%20Document.pdf)
+**5.) UML Structural Diagrams** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/5.%20UML%20Structural%20Diagrams.pdf)
 ----
-**8. Automated Test Script** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/8.%20Automated%20Test%20Script.pdf)
+**6.) UML Behavioural Diagrams** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/6.%20UML%20Behavioural%20Diagrams.pdf)
 ----
-**9. Source Code Repository Link** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/9.%20Source%20Code%20Repository%20Link.pdf)
+**7.) Software Test Case Design Document** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/7.%20Software%20Test%20Case%20Design%20Document.pdf)
 ----
-**10. Presentation of the Course Project & Contributions & Video Link** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/10.%20Presentation%20of%20the%20Course%20Project%20%26%20Contributions%20%26%20Video%20Link.pptx)
+**8.) Automated Test Script** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/8.%20Automated%20Test%20Script.pdf)
 ----
-Main Page
+**9.) Source Code Repository Link** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/9.%20Source%20Code%20Repository%20Link.pdf)
+----
+**10.) Presentation of the Course Project & Contributions** [here](https://github.com/Dev-Goel/CSL2060-Software-Engineering-Project-Timely/blob/main/Software%20Documents/10.%20Presentation%20of%20the%20Course%20Project%20%26%20Contributions%20%26%20Video%20Link.pptx)
+----
+**Video Link** [here](https://drive.google.com/file/d/1M73KVW39sYlaMOZm_2xw4g6TQ4cIiIDN/view?usp=sharing)
+----
+
+Screenshots of Project:
+------
+
+● Main Page
 -----------------
 <img width="453" alt="image" src="https://user-images.githubusercontent.com/75497964/163438474-bfbab85f-4b81-4cb7-b9ae-49bdf23e729e.png">
 
-All-Time Page
+● All-Time Page
 -----------------
 <img width="448" alt="image" src="https://user-images.githubusercontent.com/75497964/163438655-6186cf09-79e7-4d54-856e-5892fccac429.png">
 
-Last Week Page
+● Last Week Page
 -----------------
 <img width="438" alt="image" src="https://user-images.githubusercontent.com/75497964/163438807-b83e163c-e7d7-4c9c-98b0-6d598cdec1a6.png">
 
-Settings Page
+● Settings Page
 -----------------
 ![image](https://user-images.githubusercontent.com/75497964/163439031-22079e95-93c7-40f7-b43b-48328fed2742.png)
 
-
-Restrictions Page
+● Restrictions Page
 -----------------
 ![image](https://user-images.githubusercontent.com/75497964/163439098-8ad437ad-bfc9-4875-bdb9-500ee142de98.png)
 
-Notifications Page
+● Notifications Page
 -----------------
 ![image](https://user-images.githubusercontent.com/75497964/163439150-7c6a7f7a-8cd3-475d-a138-f10b01a93814.png)
 
-About Page
+● About Page
 -----------------
 ![image](https://user-images.githubusercontent.com/75497964/163439197-68fd0263-6fa4-4082-a0bc-2f3039946b54.png)
 
-Blocked Page
+● Blocked Page
 -----------------
 ![image](https://user-images.githubusercontent.com/75497964/163440649-c7f6672a-85be-477d-a45e-01c20d0ee814.png)
 
