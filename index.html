@@ -5,8 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timely</title>
+    <!-- Adding CSS Files -->
+    <link href="style/webact.css" rel="stylesheet" />
+    <link href="style/chart.css" rel="stylesheet" />
 </head>
 <body>
-    <h1> Timely </h1>
+    <!-- Preloader: 'Loading...' is visible before the main content of the web page is loaded -->
+    <div id="preloader" class="preloader">
+        <div class="preloader__image">
+            <div class="title">Loading Please wait...</div>
+        </div>
+    </div>
+    <!-- Defined for the title of the main page -->
+    <svg class="height-0">
+      <filter id="dropShadow">
+         <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+         <feOffset dx="0" dy="1" />
+         <feMerge>
+            <feMergeNode />
+            <feMergeNode in="SourceGraphic" />
+         </feMerge>
+      </filter>
+   </svg>
+   <!-- Divsion to show title -->
+    <div id="extensionTitle">
+        <p class="title">SE Course Project: Timely</p>
+    </div>
+    <!-- Divison to show the buttons to the user -->
+    <div id="buttons" class="btn-block">
+        <!-- Used the anchor tag that defines a hyperlink -->
+        <!-- Today is set as active that means it will open first whenever extension is loaded -->
+        <a class="active" id="btnToday">Today</a>
+        <!-- All-Time -->
+        <a id="btnAll">All-Time</a>
+        <!-- By Days -->
+        <a id="btnByDays">Last Week</a>
+        <!-- Settings -->
+        <a id="settings">Settings</a>
+        <div id='closeHintBtn' class="close-hint"></div>  
+    </div>
+    <!-- Div to create charts -->
+    <div id="blockForChartBtn">
+        <a class="button active chart-btn chart-btn-donut" id="donutChartBtn">Common chart</a>
+    </div>
+    <div id="chart"></div>
+    <div id="resultTable" class="list-of-site"></div>
+    <div id="total" class="inline-flex"></div>
+    <div id="byDays" class="calendar-block"></div>
 </body>
 </html>
