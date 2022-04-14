@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Timely</title>
+    <link href="style/picker/standalone.min.css" rel="stylesheet" />
+    <link href="style/picker/clockpicker.min.css" rel="stylesheet" />
+    <link href="style/settings.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="content">
+        <!-- Div to show buttons -->
+        <div class="header">
+            <p class="title">Timely</p>
+        </div>
+        <div id='nav' class="nav">
+            <a id='settingsBtn' class="active">Settings</a>
+            <a id='restrictionsBtn'>Restricitons</a>
+            <a id='notifyBtn'>Notifications</a>
+            <a id='aboutBtn'>About</a>
+        </div>
+        <!-- Div to show each button's section -->
+        <div id='block'>
+            <!-- Setting Section -->
+            <div id='settingsBlock'>
+                <label>
+                    <input type="checkbox" class="filled-in" id="viewTimeInBadge" />
+                    <span>Display time tracker in icon</span>
+                </label>
+                <div class="margin-top-10">
+                    <label>
+                        <input type="checkbox" class="filled-in" id="darkMode" />   
+                        <span>Dark mode</span>
+                    </label>
+                </div>
+                    <div class="margin-top-10">
+                        <label>Ignored list of domain: </label>
+                        <div class="tooltip"><img src="/icons/information.svg" height="18" />
+                            <span class="tooltiptext">Activity for these domains not will tracked</span>
+                        </div>
+                        <div class="margin-top-10">
+                            <ul id='blackList' class="listbox" size="7"></ul>
+                        </div>
+                        <div class="margin-top-10">
+                            <input type="text" placeholder="Enter site name..." id='addBlackSiteLbl' />
+                            <input type="button" value="+" id='addBlackSiteBtn' />
+                        </div>
+                        <div class="notify warning" id='notifyForBlackList' hidden>
+                            The site is already in the list
+                        </div>
+                    </div>
+                    <div class="margin-top-10">
+                        <label>Data in memory use </label><label id='memoryUse'></label>
+                    </div>
+                    <div class="margin-top-10"><input type="button" value="Clear all data" id='clearAllData'></div>
+                    <div class="notify" id='notify' hidden>
+                        Data successfully deleted
+                    </div>
+            </div>
+            <!-- Restricitons Section -->
+            <div id='restrictionsBlock' hidden>
+                <label>Access daily restrictions for websites: </label>
+                <div class="tooltip"><img src="/icons/information.svg" height="18" />
+                    <span class="tooltiptext">Set the maximum time allowed on the site per day. After this time, has elapsed the site will be blocked. 
+                        Restrictions can be configured for specific paths on a site as well.</span>
+                </div>
+                <div class="margin-top-10">
+                    <input type="text" class="label-with-list" placeholder="Enter site name..."
+                        id='addRestrictionSiteLbl' />
+                    <div class="inline-block clockpicker" data-placement="left" data-align="top" data-autoclose="true">
+                        <input type="text" class="clock" placeholder="Time..." readonly id="addRestrictionTimeLbl">
+                    </div>
+                    <input type="button" value="+" class="btn-with-list" id='addRestrictionSiteBtn' />
+                </div>
+                <div class="margin-top-10">
+                    <ul id='restrictionsList' class="listbox list" size="10"></ul>
+                </div>
+                <div class="notify warning notify-width-300" id='notifyForRestrictionList' hidden>
+                    The site is already in the list
+                </div>
+            </div>
+            <!-- Notifications Section -->
+            <div id='notifyBlock' hidden>
+                <label>List of sites with notifications: </label>
+                <div class="tooltip"><img src="/icons/information.svg" height="18" />
+                </div>
+                <div class="margin-top-10">
+                    <input type="text" class="label-with-list" placeholder="Enter site name..." id='addNotifySiteLbl' />
+                    <div class="inline-block clockpicker" data-placement="left" data-align="top" data-autoclose="true">
+                        <input type="text" class="clock" placeholder="Time..." readonly id="addNotifyTimeLbl">
+                    </div>
+                    <input type="button" class="btn-with-list" value="+" id='addNotifySiteBtn' />
+                </div>
+                <div class="margin-top-10">
+                    <ul id='notifyList' class="listbox list" size="10"></ul>
+                </div>
+                <div class="notify warning notify-width-300" id='notifyForNotifyList' hidden>
+                    The site is already in the notify list
+                </div>
+            </div>
+            <!-- About Section -->
+            <div id='aboutBlock' hidden>
+                <h1>Software Engineering Course Project</h1>
+                <h2>By</h2>
+                <h2>Dev Goel (B20CS090)</h2>
+                <h2>Ravi Ramavat (B20CS053)</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!-- Loading Scripts (Js) -->
+<script src="scripts/common.js"></script>
+<script src="scripts/storage.js"></script>
+<script src="scripts/settings.js"></script>
+<script src="scripts/restriction.js"></script>
+<script src="scripts/url.js"></script>
+<script src="scripts/picker/jquery-3.3.1.min.js"></script>
+<script src="scripts/picker/clockpicker.min.js"></script>
